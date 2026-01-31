@@ -1,58 +1,188 @@
-<!doctype html>
+
+You said:
+<!DOCTYPE html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>HabitTracker — Transform your habits</title>
-<link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chandani Maurya | Portfolio</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="pss.css">
 </head>
 <body>
-  <!-- full-screen background (online Unsplash) -->
-  <div class="full-bg" style="background-image:url('https://images.unsplash.com/photo-1599058917761-796e0c25c65c?q=80&w=1800&auto=format&fit=crop')">
-    <div class="overlay"></div>
-    <div class="container">
-      <header class="navbar">
-        <div class="logo">Habit<span>Tracker</span></div>
-        <div class="nav-actions">
-          <a class="btn small" href="login.html">Login</a>
-          <a class="btn small outline" href="signup.html">Sign Up</a>
-        </div>
-      </header>
 
-      <main class="hero">
-        <div class="hero-left">
-          <h1>Transform Your <span class="accent">Habits</span> — Elevate Your Life</h1>
-          <p>Neon green & charcoal theme. Track Workout, Study, Extra Activities and get quick motivation from the AI Chatbot.</p>
-          <div class="cta">
-            <a class="btn" href="signup.html">Get Started</a>
-            <a class="btn outline" href="#features">Learn More</a>
-          </div>
-        </div>
-      </main>
-
-      <section id="features" class="features">
-        <div class="cards-row">
-          <a class="feature-card guarded" href="workout.html" style="background-image:url('https://images.unsplash.com/photo-1517836357463-d25dfeac3438?q=80&w=900&auto=format&fit=crop')">
-            <h3>🏋️ Workout</h3>
-          </a>
-
-          <a class="feature-card guarded" href="study.html" style="background-image:url('https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=900&auto=format&fit=crop')">
-            <h3>📚 Study</h3>
-          </a>
-
-          <a class="feature-card guarded" href="extra.html" style="background-image:url('https://images.unsplash.com/photo-1500530855697-b586d89ba3ee?q=80&w=900&auto=format&fit=crop')">
-            <h3>🎭 Extra Activities</h3>
-          </a>
-
-          <a class="feature-card guarded" href="chatbot.html" style="background-image:url('https://images.unsplash.com/photo-1503602642458-232111445657?q=80&w=900&auto=format&fit=crop')">
-            <h3>🤖 AI Chatbot</h3>
-          </a>
-        </div>
-      </section>
-
-      <footer>© 2025 HabitTracker</footer>
+<header>
+    <div class="user">
+        <!-- Place your photo in same folder and name it chandani.jpg -->
+     <img src="chandani.jpg" alt="Chandani Maurya">
+        <h1 class="name">Chandani Maurya</h1>
+        <p class="post">B.Tech Student | Computer Science & Technology</p>
     </div>
-  </div>
 
-  <script src="app.js"></script>
+    <nav class="navbar">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<div id="menu" class="fas fa-bars"></div>
+
+<section class="home" id="home">
+
+    <div class="home-content">
+        <h3>Hi There!</h3>
+        <h1>I'M <span>Chandani Maurya</span></h1>
+        <p>
+            I am a student currently pursuing a B.Tech degree in Computer Science and Technology 
+            from ABES Engineering College, Ghaziabad. I am passionate about programming, data structures,
+            and web development.
+        </p>
+        <a href="#about">
+            <button class="btn">About Me <i class="fas fa-user"></i></button>
+        </a>
+    </div>
+
+
+</section>
+
+
+
+<section class="about" id="about">
+    <h1 class="heading"><span>About</span> Me</h1>
+
+    <div class="row">
+        <div class="info">
+            <h3><span>Name :</span> Chandani Maurya</h3>
+            <h3><span>Degree :</span> B.Tech (Computer Science & Technology)</h3>
+            <h3><span>College :</span> ABES Engineering College, Ghaziabad</h3>
+            <h3><span>Status :</span> Student</h3>
+            <h3><span>Skills :</span> C, C++, JavaScript, DSA, HTML, CSS</h3>
+
+            <h3><span>LinkedIn :</span> <a href="https://www.linkedin.com/in/chandani-maurya-612194384/" target="_blank">www.linkedin.com/in/chandani-maurya-612194384/</a></h3>
+            <h3><span>GitHub :</span> <a href="https://github.com/chandani-06" target="_blank">github.com/chandani-06</a></h3>
+
+            <a href="resume.pdf" download><button class="btn">Download CV <i class="fas fa-download"></i></button></a>
+        </div>
+
+        <div class="counter">
+            <div class="box">
+                <span>2+</span>
+                <h3>Projects Completed</h3>
+            </div>
+            <div class="box">
+                <span>6+</span>
+                <h3>Technical Skills</h3>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="education" id="education">
+    <h1 class="heading">My <span>Education</span></h1>
+
+    <div class="box-container">
+        <div class="box">
+            <i class="fas fa-graduation-cap"></i>
+            <span>2023 - Present</span>
+            <h3>B.Tech in Computer Science & Technology</h3>
+            <p>ABES Engineering College, Ghaziabad</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-school"></i>
+            <span>2021 - 2023</span>
+            <h3>Senior Secondary (12th)</h3>
+            <p>Intermediate Board</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-school"></i>
+            <span>2019 - 2021</span>
+            <h3>Secondary (10th)</h3>
+            <p>High School Board</p>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <h1 class="heading">My <span>Skills</span></h1>
+
+    <div class="box-container">
+
+        <div class="box">
+            <i class="fas fa-code"></i>
+            <h3>Programming Languages</h3>
+            <p>C, C++, JavaScript</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-laptop-code"></i>
+            <h3>Web Development</h3>
+            <p>HTML5, CSS3</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-database"></i>
+            <h3>Core Concepts</h3>
+            <p>Data Structures, Algorithms</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-tools"></i>
+            <h3>Tools & Platforms</h3>
+            <p>Git, GitHub, VS Code</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-brain"></i>
+            <h3>Problem Solving</h3>
+            <p>Logical Thinking, Competitive Coding Basics</p>
+        </div>
+
+        <div class="box">
+            <i class="fas fa-users"></i>
+            <h3>Soft Skills</h3>
+            <p>Team Work, Communication, Time Management</p>
+        </div>
+
+    </div>
+</section>
+
+
+
+<section class="contact" id="contact">
+    <h1 class="heading"><span>Contact</span> Me</h1>
+
+    <div class="row">
+        <div class="content">
+            <h3 class="title">Contact Info</h3>
+            <div class="info">
+                <h3><i class="fas fa-envelope"></i> chandani@example.com</h3>
+                <h3><i class="fas fa-phone"></i> +91-XXXXXXXXXX</h3>
+                <h3><i class="fas fa-map-marker-alt"></i> Ghaziabad, Uttar Pradesh, India</h3>
+            </div>
+        </div>
+
+        <form action="">
+            <input type="text" placeholder="Name" class="box">
+            <input type="email" placeholder="Email" class="box">
+            <input type="text" placeholder="Project" class="box">
+            <textarea cols="30" rows="10" class="box message" placeholder="Message"></textarea>
+            <button type="submit" class="btn">Send <i class="fas fa-paper-plane"></i></button>
+        </form>
+    </div>
+</section>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="script.js"></script>
+
 </body>
 </html>
+
